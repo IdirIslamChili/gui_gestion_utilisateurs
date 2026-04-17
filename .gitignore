@@ -1,12 +1,30 @@
-# Dossiers et fichiers PyCharm
-.idea/
-*.iml
-
-# Fichiers Python compilés
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Fichiers système
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# IDE (PyCharm / VSCode)
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+
+# Database files (si tu en as)
+*.db
+*.sqlite3
