@@ -48,15 +48,12 @@ class ViewUtilisateur (ctk.CTk):
                 prenom=self.prenom_entry.get(),
                 age=int(self.age_entry.get())
             )
-
             self.service.inscrire_utilisateur(utilisateur)
-
             self.num_entry.delete(0, "end")
             self.nom_entry.delete(0, "end")
             self.prenom_entry.delete(0, "end")
             self.age_entry.delete(0, "end")
 
-            print("Utilisateur ajouté avec succès")
 
         except Exception as e:
             print("Erreur :", e)
