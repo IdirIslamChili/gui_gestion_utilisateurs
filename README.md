@@ -7,6 +7,6 @@ Elle permet d’effectuer des opérations de base sur une base de données MySQL
 Les données seront enregistrées dans une base de données MySQL et l’application sera structurée selon une architecture en couches, afin de séparer clairement les responsabilités (données, logique, métier, interface graphique.)
 
 ### ⚙️ Technologies utilisées :
-Python 🐍
-customTkinter 
-MySQL
+Python 🐍,
+customTkinter ,
+MySQL.

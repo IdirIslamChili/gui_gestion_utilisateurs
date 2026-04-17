@@ -1,0 +1,12 @@
+# Dossiers et fichiers PyCharm
+.idea/
+*.iml
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
