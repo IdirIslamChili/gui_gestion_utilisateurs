@@ -1,6 +1,8 @@
 from data.data_utilisateur import DataUtilisateur
 from models.utilisateur import Utilisateur
 from services.services_utilisateur import ServiceUtilisateur
+from views.view_utilisateur import ViewUtilisateur
+
 data_user=DataUtilisateur()
 con=data_user.connecter_db()
 print(con)
@@ -19,5 +21,7 @@ print("Liste des utilisateurs :")
 for u in utilisateurs:
     u.afficher_infos()
 
+app = ViewUtilisateur()
+app.mainloop()
 
 
