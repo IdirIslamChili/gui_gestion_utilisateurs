@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "user": "user_python",
+  "password": "VOTRE_MOT_DE_PASSE_ICI",
+  "database": "db_utilisateurs"
+}

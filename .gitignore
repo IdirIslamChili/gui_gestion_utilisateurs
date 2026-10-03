@@ -28,3 +28,5 @@ dist/
 # Database files (si tu en as)
 *.db
 *.sqlite3
+
+data/config.json
